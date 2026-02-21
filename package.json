@@ -1,0 +1,10 @@
+{
+  "name": "nfe-vigia",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:web": "npm --workspace @nfe-vigia/web run dev",
+    "dev:api": "npm --workspace @nfe-vigia/api run start:dev"
+  }
+}

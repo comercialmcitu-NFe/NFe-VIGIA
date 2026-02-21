@@ -1,0 +1,7 @@
+# env (segredos)
+.env
+apps/api/.env
+
+# node
+node_modules
+dist
